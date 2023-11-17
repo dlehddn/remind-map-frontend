@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './GroupTap.module.css';
 
 import Datepicker from 'react-tailwindcss-datepicker';
-import { groupMarkers, groups } from '../group/datas';
+import { groupMarkers, groups } from './datas';
 import Posting from '../../common/userposting/Posting';
 const GroupTap = () => {
   const [curGroup, setCurGroup] = useState(0);
